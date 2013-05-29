@@ -1,0 +1,67 @@
+h1 {
+	text-align: center;
+	font-family: 'Sniglet', cursive;
+	color: white;
+}
+
+body
+{
+background-image:url("http://mobi-wall.brothersoft.com/files/480320/b/1281604219437.jpg");
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+header {
+	padding-top:40px;
+}
+
+p {
+	vertical-align: middle;
+}
+
+#content {
+	width:450px;
+	height: 450px;
+	margin:0 auto;
+	border-radius: 50%;
+	background-color:rgba(255, 255, 255, 0.25);
+}
+
+#content .item {
+	background-color:rgb(205, 133, 63);
+	height: 100px;
+	width: 100px;
+	line-height:100px;
+	text-align: center;
+	border-radius:50%;
+	float:left;
+	margin:25px;
+}
+
+#content .item.text {
+	font-size: 15px;
+	font-family: 'Sniglet', cursive;
+}
+
+#content .item img {
+	height: 100px;
+	width: 100px;
+	border-radius:50%;
+}
+#content .item.that {
+	position:relative;
+	top:-20px;
+	right:-20px;
+}
+#content .item.this {
+	position:relative;
+	top:20px;
+	left:15px;
+}
+#content .item.other {
+	position:relative;
+	bottom:10px;
+	left:-15px;
+}
